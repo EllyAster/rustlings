@@ -14,31 +14,36 @@ You can think of it as an interactive Rust tutorial where each error message is 
 
 ---
 
-## 💻 What's in This Repo
+## 🧩 My Progress Tracking
 
-This repo mirrors my journey through Rustlings. Each folder or file corresponds to a specific exercise, topic, or concept.
+Below is my progress for each topic area as well as their relevant chapter within The Rust Cookbook
 
-```
-.
-├─ exercises/
-│  ├─ variables/
-│  ├─ functions/
-│  ├─ ownership/
-│  ├─ borrowing/
-│  ├─ structs_enums/
-│  ├─ error_handling/
-│  ├─ iterators/
-│  ├─ traits_generics/
-│  ├─ lifetimes/
-│  ├─ tests/
-│  └─ ...more as I progress
-├─ notes/
-│  ├─ learning_log.md
-│  └─ helpful_tips.md
-└─ README.md
-```
+- [x] **variables** — §3.1  
+- [x] **functions** — §3.3  
+- [x] **if** — §3.5  
+- [x] **primitive_types** — §3.2, §4.3  
+- [x] **vecs** — §8.1  
+- [ ] **move_semantics** — §4.1–4.2  
+- [ ] **structs** — §5.1, §5.3  
+- [x] **enums** — §6, §18.3  
+- [ ] **strings** — §8.2  
+- [ ] **modules** — §7  
+- [ ] **hashmaps** — §8.3  
+- [ ] **options** — §10.1  
+- [ ] **error_handling** — §9  
+- [ ] **generics** — §10  
+- [ ] **traits** — §10.2  
+- [ ] **lifetimes** — §10.3  
+- [ ] **tests** — §11.1  
+- [ ] **iterators** — §13.2–4  
+- [ ] **smart_pointers** — §15, §16.3  
+- [ ] **threads** — §16.1–3  
+- [ ] **macros** — §20.5  
+- [ ] **clippy** — Appendix D  
+- [ ] **conversions** — n/a
 
-Each section has the Rust source files I’ve completed and sometimes additional notes about what I learned or found tricky.
+
+
 
 ---
 
@@ -62,7 +67,8 @@ cargo install rustlings --locked
 If you have Rustlings installed:
 
 ```bash
-rustlings watch
+cd rustlings 
+rustlings
 ```
 
 Or, to test individual files manually:
@@ -72,35 +78,6 @@ cargo run
 # or
 cargo test
 ```
-
----
-
-## 🧭 My Learning Approach
-
-1. Read the comments in each exercise.
-2. Try to fix compiler errors without peeking at hints.
-3. Review the related section of *The Rust Programming Language* book.
-4. Write notes in `notes/learning_log.md` to summarize insights.
-5. Commit each working solution before moving on.
-
----
-
-## 🧩 Progress Tracking
-
-* ✅ **Variables & Functions** – complete
-* ✅ **Ownership & Borrowing** – complete
-* 🟡 **Structs, Enums & Traits** – in progress
-* ⚪ **Lifetimes & Advanced Topics** – upcoming
-
----
-
-## 🛠️ Tools I’m Using
-
-* **Rust Analyzer** (VS Code extension)
-* **Clippy** for linting (`cargo clippy -- -D warnings`)
-* **rustfmt** for consistent formatting (`cargo fmt`)
-* Occasionally, **rustlings hint <exercise>** for guidance
-
 
 ---
 
