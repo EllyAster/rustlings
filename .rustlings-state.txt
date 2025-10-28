@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-move_semantics1
+hashmaps3
 
 intro1
 intro2
@@ -28,3 +28,5 @@ primitive_types6
 vecs1
 vecs2
 enums1
+hashmaps1
+hashmaps2
