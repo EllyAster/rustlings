@@ -28,7 +28,7 @@ Below is my progress for each topic area as well as their relevant chapter withi
 - [x] **enums** — §6, §18.3  
 - [ ] **strings** — §8.2  
 - [ ] **modules** — §7  
-- [ ] **hashmaps** — §8.3  
+- [x] **hashmaps** — §8.3  
 - [ ] **options** — §10.1  
 - [ ] **error_handling** — §9  
 - [ ] **generics** — §10  
