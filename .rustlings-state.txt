@@ -1,6 +1,6 @@
 DON'T EDIT THIS FILE!
 
-hashmaps3
+generics2
 
 intro1
 intro2
@@ -30,3 +30,5 @@ vecs2
 enums1
 hashmaps1
 hashmaps2
+hashmaps3
+generics1
